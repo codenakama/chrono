@@ -1,0 +1,21 @@
+{
+  "name": "chrono",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Codenakama",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.3.0",
+    "material-ui": "^1.0.0-beta.18",
+    "material-ui-icons": "^1.0.0-beta.17",
+    "next": "^4.1.3",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "styled-components": "^2.2.2"
+  }
+}
