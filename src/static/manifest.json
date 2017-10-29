@@ -1,8 +1,0 @@
-{
-  "name": "Next.js",
-  "short_name": "Next.js",
-  "display": "standalone",
-  "start_url": "/",
-  "theme_color": "red",
-  "background_color": "#F5F5F5"
-}
