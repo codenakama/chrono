@@ -53,6 +53,6 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    background-color: #F5F5F5;  
+    background: #F5F5F5 !important;  
 }
 `;

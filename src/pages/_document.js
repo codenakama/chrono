@@ -3,7 +3,6 @@ import { ServerStyleSheet } from "styled-components";
 import { injectGlobal } from "styled-components";
 import { ThemeProvider } from "styled-components";
 import theme from "../theme/theme";
-import * as globalStyles from "../styles/globalStyles";
 import Layout from "../components/Layout";
 
 class MyDocument extends Document {
@@ -22,6 +21,14 @@ class MyDocument extends Document {
             }
           />
           <link rel="stylesheet" href="../static/semantic.paper.min.css" />
+          <style jsx global>{`
+            body {
+              margin: 0;
+              font-family: "Roboto", sans-serif;
+              font-size: 16px;
+              background: #f6f7f7 !important;
+            }
+          `}</style>
         </Head>
         <body>
           <Main />
