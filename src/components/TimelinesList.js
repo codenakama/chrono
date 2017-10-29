@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Grid, Image } from "semantic-ui-react";
 import TimelineCard from "./TimelineCard";
 
-class FeaturedTimelines extends Component {
+class TimelinesList extends Component {
   render() {
     return (
       <Grid>
@@ -29,4 +29,4 @@ class FeaturedTimelines extends Component {
   }
 }
 
-export default FeaturedTimelines;
+export default TimelinesList;
