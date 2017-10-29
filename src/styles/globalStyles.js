@@ -1,7 +1,7 @@
 import { injectGlobal } from "styled-components";
 
 injectGlobal`
-@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+/* @import url('https://fonts.googleapis.com/icon?family=Material+Icons');*/
 
 /* reset css */
 
