@@ -1,5 +1,13 @@
 import React, { Component } from "react";
-import { Button, Menu, Dropdown, Container, Image } from "semantic-ui-react";
+import {
+  Button,
+  Menu,
+  Dropdown,
+  Container,
+  Image,
+  Icon
+} from "semantic-ui-react";
+import Link from "next/link";
 
 class AppHeader extends Component {
   render() {
@@ -16,7 +24,11 @@ class AppHeader extends Component {
           </Menu.Item>
           <Menu.Menu position="right">
             <Menu.Item as="a">Login</Menu.Item>
-            <Menu.Item as="a">My timelines</Menu.Item>
+            <Menu.Item as="a">
+              <Link href="/mytimelines">
+                <a>My timelines</a>
+              </Link>
+            </Menu.Item>
           </Menu.Menu>
         </Container>
       </Menu>
