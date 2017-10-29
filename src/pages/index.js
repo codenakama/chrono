@@ -1,22 +1,18 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import Typography from "material-ui/Typography";
-import AppBar from "material-ui/AppBar";
-import Toolbar from "material-ui/Toolbar";
+
 import { withStyles } from "material-ui/styles";
 import withRoot from "../components/withRoot";
+import Header from "../components/Header";
+import FeaturedTimelinesGrid from "../components/FeaturedTimelinesGrid";
 
 class Index extends Component {
   render() {
     return (
       <div className={this.props.classes.root}>
-        <AppBar position="static" color="default">
-          <Toolbar>
-            <Typography type="title" color="inherit">
-              Chrono
-            </Typography>
-          </Toolbar>
-        </AppBar>
+        <Header />
+        <FeaturedTimelinesGrid />
       </div>
     );
   }

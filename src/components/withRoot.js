@@ -4,19 +4,11 @@ import React, { Component } from "react";
 import { withStyles, MuiThemeProvider } from "material-ui/styles";
 import wrapDisplayName from "recompose/wrapDisplayName";
 import getContext from "../styles/getContext";
+import * as globalStyles from "../styles/globalStyles";
 
 // Apply some reset
 const styles = theme => ({
-  "@global": {
-    html: {
-      background: theme.palette.background.default,
-      WebkitFontSmoothing: "antialiased", // Antialiasing.
-      MozOsxFontSmoothing: "grayscale" // Antialiasing.
-    },
-    body: {
-      margin: 0
-    }
-  }
+  "@global": {}
 });
 
 let AppWrapper = props => props.children;
