@@ -4,18 +4,6 @@ import TimelinesList from "../components/TimelinesList";
 import { Container } from "semantic-ui-react";
 import { Header } from "semantic-ui-react";
 import Layout from "../components/Layout";
+import { Grid, Button } from "semantic-ui-react";
 
-class Index extends Component {
-  render() {
-    return (
-      <div>
-        <Layout>
-          <Header as="h1">Featured timelines</Header>
-          <TimelinesList />
-        </Layout>
-      </div>
-    );
-  }
-}
-
-export default Index;
+export default () => <Layout>create</Layout>;
